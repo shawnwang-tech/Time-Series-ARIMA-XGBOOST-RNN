@@ -8,7 +8,7 @@ config_plot()
 # we focus on the last 10 days data in Nov 2010
 N_rows = 15000
 parse_dates = [['Date', 'Time']]
-filename = "household_power_consumption.txt"
+filename = "/Users/wangshuo/Documents/workspace/data/study/power/household_power_consumption.txt"
 
 df = preprocess(N_rows, parse_dates, filename)
 
